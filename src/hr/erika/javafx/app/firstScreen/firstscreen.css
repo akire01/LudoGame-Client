@@ -1,0 +1,16 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+#whitePane{
+    background-color: white;
+}
+
+.bold{
+    font-weight: bold;
+}
+

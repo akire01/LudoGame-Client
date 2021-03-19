@@ -1,0 +1,15 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.btn{
+    -fx-background-color: #ADD8E6;
+    
+}
+
+.grid{
+     -fx-background-color: #F8F8FF;
+}

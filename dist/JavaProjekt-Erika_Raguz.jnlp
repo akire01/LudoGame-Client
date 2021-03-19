@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaProjekt-Erika_Raguz.jnlp">
+  <information>
+    <title>JavaProjekt-Erika_Raguz</title>
+    <vendor>ER</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaProjekt-Erika_Raguz.jar" size="367374" download="eager" />
+    <jar href="lib\jackson-annotations-2.12.0.jar" size="75702" download="eager" />
+    <jar href="lib\jackson-core-2.12.0.jar" size="365185" download="eager" />
+    <jar href="lib\jackson-databind-2.12.0.jar" size="1511931" download="eager" />
+    <jar href="lib\serverchatinterface.jar" size="740" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JavaProjekt-Erika_Raguz" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="hr.erika.javafx.app.Main"  name="JavaProjekt-Erika_Raguz" />
+  <update check="always"/>
+</jnlp>

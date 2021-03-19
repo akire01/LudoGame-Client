@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="761.0" prefWidth="1328.0" styleClass="grid" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.erika.javafx.app.userScreen.UserScreenController">
+    <stylesheets>
+        <URL value="@userscreen.css" />
+    </stylesheets>
+   <children>
+      <GridPane fx:id="gridPane" layoutX="5.0" prefHeight="759.0" prefWidth="945.0" stylesheets="@userscreen.css">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="0.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="0.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="0.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="0.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="0.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="0.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="0.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="0.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="0.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="0.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="190.0" minWidth="0.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="170.0" minHeight="60.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="204.0" minHeight="60.0" prefHeight="62.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="200.0" minHeight="60.0" prefHeight="65.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="220.0" minHeight="60.0" prefHeight="65.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="247.0" minHeight="60.0" prefHeight="67.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="205.0" minHeight="60.0" prefHeight="66.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="170.0" minHeight="60.0" prefHeight="74.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="143.0" minHeight="60.0" prefHeight="74.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="120.0" minHeight="60.0" prefHeight="72.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="120.0" minHeight="60.0" prefHeight="73.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="120.0" minHeight="60.0" prefHeight="70.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Circle fx:id="finishBlue" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="10" GridPane.valignment="CENTER" />
+            <Circle fx:id="field28" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="10" GridPane.valignment="CENTER" />
+            <Circle fx:id="field31" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER" />
+            <Circle fx:id="field32" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER" />
+            <Circle fx:id="field33" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
+            <Circle fx:id="field34" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Circle fx:id="field35" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Circle fx:id="field36" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Circle fx:id="field37" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Circle fx:id="field38" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Circle fx:id="finishYellow" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Circle fx:id="field1" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Circle fx:id="field2" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Circle fx:id="field3" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Circle fx:id="field4" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Circle fx:id="field5" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <Circle fx:id="field6" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Circle fx:id="field7" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Circle fx:id="field8" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Circle fx:id="finishGreen" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Circle fx:id="field11" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Circle fx:id="field12" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Circle fx:id="field13" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <Circle fx:id="field14" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Circle fx:id="field15" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Circle fx:id="field16" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Circle fx:id="field17" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Circle fx:id="field18" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <Circle fx:id="field21" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Circle fx:id="field22" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Circle fx:id="field23" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Circle fx:id="field24" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Circle fx:id="field25" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
+            <Circle fx:id="field26" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER" />
+            <Circle fx:id="field27" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER" />
+            <Circle fx:id="finishRed" disable="true" fill="WHITE" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Circle fx:id="squareYellow1" fill="#ecff42cc" radius="17.0" stroke="#1e1c1c" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Circle fx:id="squareYellow2" fill="#ecff42cc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Circle fx:id="squareYellow3" fill="#ecff42cc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Circle fx:id="squareYellow4" fill="#ecff42cc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Circle fx:id="squareGreen3" fill="#5bbf04cc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Circle fx:id="squareGreen4" fill="#5bbf04cc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Circle fx:id="squareGreen1" fill="#5bbf04cc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Circle fx:id="squareGreen2" fill="#5bbf04cc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Circle fx:id="squareBlue1" fill="#004cdacc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER" />
+            <Circle fx:id="squareBlue2" fill="#004cdacc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER" />
+            <Circle fx:id="squareBlue3" fill="#004cdacc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER" />
+            <Circle fx:id="squareBlue4" fill="#004cdacc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER" />
+            <Circle fx:id="squareRed1" fill="#f2140ccc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER" />
+            <Circle fx:id="squareRed2" fill="#f2140ccc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER" />
+            <Circle fx:id="squareRed3" fill="#f2140ccc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER" />
+            <Circle fx:id="squareRed4" fill="#f2140ccc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER" />
+            <Circle fx:id="homeYellow1" fill="#ecff42cc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Circle fx:id="homeYellow2" fill="#ecff42cc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Circle fx:id="homeYellow3" fill="#ecff42cc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Circle fx:id="homeYellow4" fill="#ecff42cc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Circle fx:id="homeRed1" fill="#f2140ccc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Circle fx:id="homeRed2" fill="#f2140ccc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Circle fx:id="homeRed3" fill="#f2140ccc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Circle fx:id="homeRed4" fill="#f2140ccc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            <Circle fx:id="homeBlue4" fill="#0000d9cc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Group GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Circle fx:id="yellow1" fill="#ffffffcc" onMouseClicked="#pawnClicked" radius="17.0" stroke="#d1e420" strokeType="INSIDE" strokeWidth="10.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Circle fx:id="yellow2" onMouseClicked="#pawnClicked" radius="17.0" stroke="#d1e420" strokeType="INSIDE" strokeWidth="10.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <fill>
+                  <LinearGradient endX="1.0" endY="0.8714285714285714" startX="1.0" startY="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="#ffffffcc" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle fx:id="yellow3" fill="#ffffffcc" onMouseClicked="#pawnClicked" radius="17.0" stroke="#d1e420" strokeType="INSIDE" strokeWidth="10.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Circle fx:id="yellow4" fill="#ffffffcc" onMouseClicked="#pawnClicked" radius="17.0" stroke="#d1e420" strokeType="INSIDE" strokeWidth="10.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Circle fx:id="blue1" onMouseClicked="#pawnClicked" radius="17.0" stroke="#0004ff" strokeType="INSIDE" strokeWidth="10.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER">
+               <fill>
+                  <LinearGradient endX="1.0" endY="0.3571428571428571" startX="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle fx:id="blue2" onMouseClicked="#pawnClicked" radius="17.0" stroke="#0004ff" strokeType="INSIDE" strokeWidth="10.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER">
+               <fill>
+                  <LinearGradient endX="1.0" endY="0.3571428571428571" startX="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle fx:id="blue3" onMouseClicked="#pawnClicked" radius="17.0" stroke="#0004ff" strokeType="INSIDE" strokeWidth="10.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER">
+               <fill>
+                  <LinearGradient endX="1.0" endY="0.3571428571428571" startX="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle fx:id="blue4" onMouseClicked="#pawnClicked" radius="17.0" stroke="#0004ff" strokeType="INSIDE" strokeWidth="10.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER">
+               <fill>
+                  <LinearGradient endX="1.0" endY="0.3571428571428571" startX="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle fx:id="green1" onMouseClicked="#pawnClicked" radius="17.0" stroke="#3b8d0b" strokeType="INSIDE" strokeWidth="10.0" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <fill>
+                  <LinearGradient endX="0.22857142857142856" endY="1.0" startY="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle fx:id="green3" onMouseClicked="#pawnClicked" radius="17.0" stroke="#3b8d0b" strokeType="INSIDE" strokeWidth="10.0" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <fill>
+                  <LinearGradient endX="0.1761904761904762" endY="1.0" startY="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle fx:id="green2" onMouseClicked="#pawnClicked" radius="17.0" stroke="#3b8d0b" strokeType="INSIDE" strokeWidth="10.0" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <fill>
+                  <LinearGradient endX="0.23333333333333334" endY="1.0" startY="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle fx:id="green4" onMouseClicked="#pawnClicked" radius="17.0" stroke="#3b8d0b" strokeType="INSIDE" strokeWidth="10.0" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <fill>
+                  <LinearGradient endX="0.14285714285714288" endY="1.0" startY="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle fx:id="red1" onMouseClicked="#pawnClicked" radius="17.0" stroke="#e11600" strokeType="INSIDE" strokeWidth="10.0" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER">
+               <fill>
+                  <LinearGradient endX="1.0" endY="0.3571428571428571" startX="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle fx:id="red3" onMouseClicked="#pawnClicked" radius="17.0" stroke="#e11600" strokeType="INSIDE" strokeWidth="10.0" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER">
+               <fill>
+                  <LinearGradient endX="1.0" endY="0.3571428571428571" startX="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle fx:id="red2" onMouseClicked="#pawnClicked" radius="17.0" stroke="#e11600" strokeType="INSIDE" strokeWidth="10.0" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER">
+               <fill>
+                  <LinearGradient endX="1.0" endY="0.3571428571428571" startX="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle fx:id="red4" onMouseClicked="#pawnClicked" radius="17.0" stroke="#e11600" strokeType="INSIDE" strokeWidth="10.0" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER">
+               <fill>
+                  <LinearGradient endX="1.0" endY="0.3571428571428571" startX="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle fx:id="startGreen" disable="true" fill="#3b8d0bcc" opacity="0.38" radius="17.0" stroke="#151714" strokeType="INSIDE" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Circle fx:id="startRed" disable="true" fill="#f2140ccc" opacity="0.34" radius="17.0" stroke="#2f2b2a" strokeType="INSIDE" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
+            <Circle fx:id="homeBlue3" fill="#0000d9cc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER" />
+            <Circle fx:id="homeBlue2" fill="#0000d9cc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER" />
+            <Circle fx:id="homeBlue1" fill="#0000d9cc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.valignment="CENTER" />
+            <Circle fx:id="startBlue" disable="true" fill="#0000d9cc" opacity="0.34" radius="17.0" stroke="#232325" strokeType="INSIDE" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="10" GridPane.valignment="CENTER" />
+            <Circle fx:id="homeGreen1" fill="#3d8c0bcc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Circle fx:id="homeGreen2" fill="#3b8d0bcc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+            <Circle fx:id="homeGreen3" fill="#3b8d0bcc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+            <Circle fx:id="homeGreen4" fill="#3b8d0bcc" radius="17.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <ImageView fx:id="diceImage" fitHeight="70.0" fitWidth="87.0" onMouseClicked="#roll" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+               <image>
+                  <Image url="@../../../../../assets/die6.png" />
+               </image>
+            </ImageView>
+            <Label text="YellowDog" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label prefHeight="35.0" prefWidth="109.0" text="Deep Blue" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="10" GridPane.valignment="TOP">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label prefHeight="35.0" prefWidth="96.0" text="Red Hat" GridPane.columnIndex="8" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="10" GridPane.valignment="TOP">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label prefHeight="35.0" prefWidth="170.0" text="Green Software" GridPane.columnIndex="8" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Circle fx:id="startYellow" disable="true" fill="#d1e828" opacity="0.33" radius="17.0" stroke="BLACK" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+            <MenuButton mnemonicParsing="false" prefHeight="31.0" prefWidth="85.0" text="Settings">
+              <items>
+                <MenuItem mnemonicParsing="false">
+                     <graphic>
+                        <Button mnemonicParsing="false" onAction="#showRules" styleClass="btn" stylesheets="@userscreen.css" text="Rules" />
+                     </graphic>
+                  </MenuItem>
+                <MenuItem mnemonicParsing="false">
+                     <graphic>
+                        <Button fx:id="btnSerialization" mnemonicParsing="false" onAction="#serialize" styleClass="btn" stylesheets="@userscreen.css" text="Save" />
+                     </graphic>
+                  </MenuItem>
+                  <MenuItem mnemonicParsing="false">
+                     <graphic>
+                        <Button fx:id="btnDeserialization" mnemonicParsing="false" onAction="#deserialize" styleClass="btn" stylesheets="@userscreen.css" text="Load" />
+                     </graphic>
+                  </MenuItem>
+                  <MenuItem mnemonicParsing="false">
+                     <graphic>
+                        <Button fx:id="btnGenereateDocumentation" mnemonicParsing="false" onAction="#generateDoc" styleClass="btn" stylesheets="@userscreen.css" text="Documentation" />
+                     </graphic>
+                  </MenuItem>
+                  <MenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false">
+                     <graphic>
+                        <Button mnemonicParsing="false" onAction="#loadXml" styleClass="btn" stylesheets="@userscreen.css" text="Replay" />
+                     </graphic>
+                  </MenuItem>
+              </items>
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+            </MenuButton>
+            <Text fx:id="txtMessage" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="342.6708984375" GridPane.columnSpan="2" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </GridPane>
+      <ScrollPane fx:id="spContainer" layoutX="950.0" layoutY="18.0" prefHeight="640.0" prefWidth="369.0" visible="false">
+         <content>
+            <VBox fx:id="vbMessages" prefHeight="637.0" prefWidth="316.0">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </VBox>
+         </content>
+      </ScrollPane>
+      <Button fx:id="btnSendMessage" layoutX="1215.0" layoutY="716.0" mnemonicParsing="false" onAction="#sendChatMessage" prefHeight="31.0" prefWidth="96.0" text="Send" visible="false" />
+      <TextField fx:id="tfMessage" layoutX="950.0" layoutY="673.0" onKeyReleased="#onEnterPress" prefHeight="31.0" prefWidth="369.0" visible="false" />
+   </children>
+</AnchorPane>

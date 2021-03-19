@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.erika.javafx.app.rules.RulesController">
+    <stylesheets>
+        <URL value="@rules.css" />
+    </stylesheets>
+   <children>
+      <TextArea editable="false" layoutX="17.0" layoutY="22.0" prefHeight="364.0" prefWidth="566.0" text="Players alternate turns in a clockwise direction.&#10;&#10;To enter a pawn into play from its square to its starting field, a player must roll a 6. If the player has no pawns yet in play and rolls other than a 6 for three times in a row, the turn passes to the next player.&#10;&#10;Players select a pawn to play the move according to the die value rolled. Once a player has one or more tokens in play, he selects a token and moves it forwards along the track the number of fields indicated by the die. If an opponent's pawn is blocking your pathway, you will need to land on the same fields as the pawn to capture it. You cannot move past that pawn. Passes are not allowed; if no move is possible, the turn moves to the next player. If You are close to entering Your house with one pawn and You selected that pawn, but the number is not enough to enter the house, You lost Your turn.&#10;&#10;Rolling a 6 earns the player an additional or &quot;bonus&quot; roll in that turn. If the bonus roll results in a 6 again, the player earns again an additional bonus roll.&#10;&#10;If the advance of a pawn ends on a field occupied by an opponent's token, the opponent token is returned to its owner's square. The returned token can be reentered into play only when the owner rolls a 6. The pawn can not move to a field where is other pawn with the same color.&#10;&#10;A player's home field are always safe since no opponent may enter them. In the home field, you can jump over Your token, but once You got a token in, You can not move it anymore . &#10;&#10;The first player who enteres all his pawns in his house, wins the game.&#10;&#10;Good luck and have fun!" wrapText="true" AnchorPane.rightAnchor="17.0" />
+   </children>
+</AnchorPane>
